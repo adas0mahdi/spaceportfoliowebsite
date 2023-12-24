@@ -7,6 +7,7 @@ import {
 import { FaXTwitter, FaWhatsapp,  FaFacebook } from "react-icons/fa6";
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
   return (
     <div  className="w-full h-full bg-transparent relative text-gray-200 shadow-lg p-[15px] z-50">
         <div  className="w-full flex flex-col items-center justify-center m-auto">
@@ -61,7 +62,7 @@ const Footer = () => {
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy;Adas Web Dev 2023 Inc. All rights reserved
+                &copy;Adas Web Dev {currentYear} Inc. All rights reserved
             </div>
         </div>
     </div>
